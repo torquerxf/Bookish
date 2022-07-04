@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie-edge">
+
+    <title>Bookish | For the love of reading</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <div class="navigation">
+        <input type="checkbox" class="navigation__checkbox" id="navi-toggle">
+
+        <label for="navi-toggle" class="navigation__button">
+            <span class="navigation__icon">&nbsp;</span>
+        </label>
+
+        <div class="navigation__background">&nbsp;</div>
+
+        <nav class="navigation__nav">
+            <ul class="navigation__list">
+                <li class="navigation__item"><a href="#gotobest" class="navigation__link"><span>01</span>Best Sellers</a></li>
+                <li class="navigation__item"><a href="#gotorecommended" class="navigation__link"><span>02</span>Recommended Books</a></li>
+                <li class="navigation__item"><a href="#gotoreview" class="navigation__link"><span>03</span>Reviews</a></li>
+                <li class="navigation__item"><a href="#gotofooter" class="navigation__link"><span>04</span>Contacts</a></li>
+            </ul>
+        </nav>
+    </div>
+    <header class="header">
+        <video autoplay loop muted plays-inline class="back-video">
+            <source src="images/background-video.mp4" type="video/mp4">
+        </video>
+        <nav>
+            <img src="images/Bookish-logo.png" class="header__logo">
+            <ul>
+                <li><a href="#">HOME</a></li>
+                <li><a href="#">CART</a></li>
+                <li><a href="#">PROFILE</a></li>
+                <li><a href="#">CONTACT</a></li>
+            </ul>
+        </nav>
+        <div class="explore">
+            <h1>There is more treasure in books than in<br>all the pirate&#39;s loot on Treasure Island.</h1>
+            <a href="#gotobest">explore</a>
+        </div>
+        <form action="https://www.google.com/search" target="_blank" method="get" class="searchbar">
+            <input type="text" placeholder="search" name="q">
+            <button type="submit"><img src="images/search.png"></button>
+        </form>
+    </header>
+    <main>
+        <section class="best-sell" id="gotobest">
+            <video autoplay muted loop class="vid">
+                <source src="images/bg-video.mp4" type="video/mp4">
+            </video>
+            <div class="best-sell_container">
+                <h2 class="heading-secondary">Best Sellers</h2>
+                <div class="card">
+                    <div class="card-image book-1"></div>
+                    <h2>The Da Vinci Code</h2>
+                    <div id="fl">
+                        <h3>Dan Brown</h3>
+                        <button type="button" class="addbutton"></button>
+                    </div>
+                    <p>The Da Vinci Code is a 2003 mystery thriller novel by Dan Brown. It is Brown's second novel
+                        to include the character Robert Langdon: the first was his 2000 novel Angels & Demons.</p>
+                    <img src="images/rating.png" class="star-rating">
+                </div>
+                <div class="card">
+                    <div class="card-image book-2"></div>
+                    <h2>The Alchemist</h2>
+                    <div id="fl">
+                        <h3>Paulo Coelho</h3>
+                        <button type="button" class="addbutton"></button>
+                    </div>
+                    <p>The Alchemist is a novel by Brazilian author Paulo Coelho which was first published in 1988.
+                        Originally written in Portuguese, it became a widely translated international bestseller.
+                    </p>
+                    <img src="images/rating.png" class="star-rating">
+                </div>
+                <div class="card">
+                    <div class="card-image book-3"></div>
+                    <h2>Harry Potter and the Philospher's stone</h2>
+                    <div id="fl">
+                        <h3>J.K. Rowling</h3>
+                        <button type="button" class="addbutton"></button>
+                    </div>
+                    <p>Harry Potter and the Philosopher's Stone is a fantasy novel written by British author J. K.
+                        Rowling.</p>
+                    <img src="images/rating.png" class="star-rating">
+                </div>
+                <div class="card">
+                    <div class="card-image book-4"></div>
+                    <h2>The Hobbit, or There and Back Again</h2>
+                    <div id="fl">
+                        <h3>J.R.R. Tolkien</h3>
+                        <button type="button" class="addbutton"></button>
+                    </div>
+                    <p>the quest of home-loving Bilbo Baggins, the titular hobbit, to win a share of the treasure
+                        guarded by a dragon named Smaug.</p>
+                    <img src="images/rating.png" class="star-rating">
+                </div>
+                <div class="card">
+                    <div class="card-image book-5"></div>
+                    <h2>The Lord of the Rings</h2>
+                    <div id="fl">
+                        <h3>J.R.R. Tolkien</h3>
+                        <button type="button" class="addbutton"></button>
+                    </div>
+                    <p>The Lord of the Rings is the saga of a group of sometimes reluctant heroes who set forth to save
+                        their world from consummate evil.</p>
+                    <img src="images/rating.png" class="star-rating">
+                </div>
+            </div>
+        </section>
+
+        <section class="recommended" id="gotorecommended">
+            <h1 class="heading-tertiary">Recommended books</h1>
+            <form action="https://www.google.com/search" target="_blank" method="get" class="searchbar2">
+                <input type="text" placeholder="search for books" name="q">
+                <button type="submit"><img src="images/search.png"></button>
+            </form>
+            <div class="recommend-container">
+                <div class="card-sub">
+                    <div class="card-sub-image b-1"></div>
+                    <h2>To Kill a Mockingbird</h2>
+                    <h3>Harper Lee</h3>
+                    <p>text</p>
+                    <img src="images/rating.png" class="star-rating">
+                </div>
+                <div class="card-sub">
+                    <div class="card-sub-image b-2"></div>
+                    <h2>Where the Sidewalk Ends</h2>
+                    <h3>Shel Silverstein</h3>
+                    <p>text</p>
+                    <img src="images/rating.png" class="star-rating">
+                </div>
+                <div class="card-sub">
+                    <div class="card-sub-image b-3"></div>
+                    <h2>The Shining</h2>
+                    <h3>Stephen King</h3>
+                    <p>text</p>
+                    <img src="images/rating.png" class="star-rating">
+                </div>
+                <div class="card-sub">
+                    <div class="card-sub-image b-4"></div>
+                    <h2>The Little Prince</h2>
+                    <h3>Antoine de Saint-Exupéry</h3>
+                    <p>text</p>
+                    <img src="images/rating.png" class="star-rating">
+                </div>
+                <div class="card-sub">
+                    <div class="card-sub-image b-5"></div>
+                    <h2>A Wrinkle in Time</h2>
+                    <h3>Madeleine L&#39;Engle</h3>
+                    <p>text</p>
+                    <img src="images/rating.png" class="star-rating">
+                </div>
+                <div class="card-sub">
+                    <div class="card-sub-image b-6"></div>
+                    <h2>Dune</h2>
+                    <h3>Frank Herbert</h3>
+                    <p>text</p>
+                    <img src="images/rating.png" class="star-rating">
+                </div>
+                <div class="card-sub">
+                    <div class="card-sub-image b-7"></div>
+                    <h2>Great Expectations</h2>
+                    <h3>Charles Dickens</h3>
+                    <p>text</p>
+                    <img src="images/rating.png" class="star-rating">
+                </div>
+            </div>
+        </section>
+        <section class="review" id="gotoreview">
+            <h1 class="heading-four">Reviews</h1>
+            <div class="splitter">
+                <div class="write-review">
+                    <img src="images/user (1).png" class="user">
+                    <h1><img src="images/writing (1).png" class="write">Write review</h1>
+                    <form>
+                        <p>Name</p>
+                        <input type="text" name="" placeholder="Enter Name">
+                        <p>Email id</p>
+                        <input type="email" name="" placeholder="Enter Email id">
+                        <p>review</p>
+                        <input type="text" name="" placeholder="write review">
+                        <input type="submit" name="" value="submit">
+                    </form>
+                </div>
+                <div class="read-review">
+                    <div class="review-container">
+                        <div class="review-card">
+                            <div class="review-card-image r-1"></div>
+                            <div class="review-card-content">
+                                <h1>Berendina Caomhánach</h1>
+                                <h3>verified user</h3>
+                                <img src="images/rating.png" class="star-rating">
+                                <p>This is one of the best book store available online. I had an amazing experience
+                                    buying books from here. The discounts are just too awesome. I want to thank to
+                                    bookish for such platform.</p>
+                            </div>
+                        </div>
+                        <div class="review-card">
+                            <div class="review-card-image r-2"></div>
+                            <div class="review-card-content">
+                                <h1>Alex Suero</h1>
+                                <h3>verified user</h3>
+                                <img src="images/rating.png" class="star-rating">
+                                <p>This is one of the best book store available online. I had an amazing experience
+                                    buying books from here. The discounts are just too awesome. I want to thank to
+                                    bookish for such platform.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="footer" id="gotofooter">
+        <div class="above-margin">
+            <img src="images/Bookish-logo.png" class="footer__logo">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit, voluptatibus accusantium nam
+                harum mollitia tempora accusamus ea qui minima praesentium provident.</p>
+            <ul class="footer__list">
+                <li class="items"><a href="https://www.instagram.com/vik.alp_001/" target="_blank"><img src="images/instagram.png" class="social-media"></a></li>
+                <li><a href="https://www.facebook.com/vikalp.borkar.1" target="_blank"><img src="images/facebook.png" class="social-media"></a></li>
+                <li><a href="https://www.linkedin.com/in/vikalp-borkar-55687a223" target="_blank"><img src="images/linkedin.png" class="social-media"></a></li>
+                <li><a href="#" target="_blank"><img src="images/twitter.png" class="social-media"></a></li>
+                <li><a href="https://www.youtube.com/channel/UCAB1gzFstU6S9ld-GHKmfQw" target="_blank"><img src="images/youtube.png" class="social-media"></a></li>
+            </ul>
+            <hr>
+        </div>
+        <div class="below-margin">
+            <p>copyright&#169;2022 Bookish.designed by me</p>
+        </div>
+    </footer>
+</body>
+
+</html>
